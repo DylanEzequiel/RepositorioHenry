@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(99, 4, 187);
+}
+
+nav{
+    padding:15px;
+    background-image: linear-gradient(#fec,rgb(99, 4, 187));
+}
+
+.liHeader{
+    display:inline;
+    padding: 4px;
+    
+}
+.liHeader__A{
+    padding: 4px;
+    background-color: white;
+    border-radius: 15%;
+    font-size: 20px;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.liHeader :hover{
+    background-color:#eee;
+    font-size: 22px; 
+}
+.title{
+    padding:10px;
+    text-align: center;
+}
